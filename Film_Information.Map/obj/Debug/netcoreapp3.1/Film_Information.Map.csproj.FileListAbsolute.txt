@@ -1,0 +1,12 @@
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Map\bin\Debug\netcoreapp3.1\Film_Information.Map.deps.json
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Map\bin\Debug\netcoreapp3.1\Film_Information.Map.dll
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Map\bin\Debug\netcoreapp3.1\Film_Information.Map.pdb
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Map\bin\Debug\netcoreapp3.1\Film_Information.Entities.dll
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Map\bin\Debug\netcoreapp3.1\Film_Information.Entities.pdb
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Map\obj\Debug\netcoreapp3.1\Film_Information.Map.csprojAssemblyReference.cache
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Map\obj\Debug\netcoreapp3.1\Film_Information.Map.AssemblyInfoInputs.cache
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Map\obj\Debug\netcoreapp3.1\Film_Information.Map.AssemblyInfo.cs
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Map\obj\Debug\netcoreapp3.1\Film_Information.Map.csproj.CoreCompileInputs.cache
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Map\obj\Debug\netcoreapp3.1\Film_Information.Map.csproj.CopyComplete
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Map\obj\Debug\netcoreapp3.1\Film_Information.Map.dll
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Map\obj\Debug\netcoreapp3.1\Film_Information.Map.pdb

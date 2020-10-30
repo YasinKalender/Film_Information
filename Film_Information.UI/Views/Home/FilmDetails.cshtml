@@ -1,0 +1,12 @@
+﻿@model FilmListAddUpdateDto
+@{
+    ViewData["Title"] = "FilmDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+@await Component.InvokeAsync("FilmD",new {id=Model.ID})
+
+
+

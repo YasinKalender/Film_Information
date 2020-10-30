@@ -1,0 +1,66 @@
+﻿@model List<FilmListAddUpdateDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+@Html.ActionLink("Film Ekle", "FilmAdd", "Film", null, new {@class="btn btn-primary" })
+
+@if (Model.Count() > 0)
+{
+    <table class="table table-bordered table-hover">
+
+        <thead>
+
+            <tr>
+                <th>Film Resmi</th>
+                <th>Film İsmi</th>
+                <th>Film Açıklaması</th>
+                <th>Kategori</th>
+                <th></th>
+
+
+            </tr>
+
+
+
+        </thead>
+
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+
+                    <td><img src="~/image/@item.Image" style="width:100px" /></td>
+                    <td>@item.FilmName</td>
+                    <td>@item.FilmDescription</td>
+                    <td>@item.Category.CategoryName</td>
+                    <td>@Html.ActionLink("Film Güncelle", "FilmUpdate", "Film", new { id = item.ID }, new { @class = "btn btn-primary" })</td>
+                  
+
+
+
+                </tr>
+            }
+
+
+            </tbody>
+
+
+
+
+
+
+
+    </table>
+}
+
+else
+{
+
+        <p class="lead text-center">Herhangi Film Yoktur</p>
+  
+}
+
+

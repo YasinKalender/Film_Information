@@ -1,0 +1,103 @@
+﻿@model HomeDto
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string s = (string)ViewBag.s;
+}
+
+<div class="content">
+    <div class="container">
+        <div class="content-grids">
+            <div class="col-md-8 content-main">
+                <div class="content-grid">
+
+                    <div class="search">
+                        @using (Html.BeginForm("Index", "Home", FormMethod.Get))
+                        {
+
+                            @Html.TextBox("s")
+                            <button type="submit">Ara</button>
+
+                        }
+                    </div>
+                    @if (!string.IsNullOrWhiteSpace(s))
+                    {
+                        <div>@s için arama yaptınız<a asp-controller="Home" asp-action="Index">Filtreyi Kaldır</a> </div>
+                    }
+
+
+                    @foreach (var item in Model.Films)
+                    {
+                        <div class="content-grid-info">
+
+                            <img src="/image/@item.Image" class="h-100" />
+                            <div class="post-info">
+                                <h4><a href="single.html">@item.FilmName</a>  July 30, 2014 / 27 Comments</h4>
+
+                                @if (item.FilmDescription.Length > 100)
+                                {
+                                    <p>
+                                        @(item.FilmDescription.Substring(0,100)+"...")
+                                    </p>
+                                }
+
+                                else
+                                {
+                                    <p>@item.FilmDescription</p>
+                                }
+                                @Html.ActionLink("Film Detayları", "FilmDetails", "Home", new { id = item.ID }, new { @class = "btn btn-primary" })
+                                @Html.ActionLink("Filme Yorum Yap", "CommentsAdd", "Comments", new {id=item.ID }, new { @class = "btn btn-primary" })
+
+                            </div>
+                        </div>
+                    }
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+            <div class="col-md-4 content-right">
+                <div class="recent">
+                    <h3>EN SON EKLENEN FİLMLER</h3>
+                    <ul>
+
+                        @foreach (var item in Model.LastFilms)
+                        {
+                            <li><a href="/Home/FilmDetails/@item.ID">@item.FilmName</a></li>
+                        }
+                    </ul>
+                </div>
+                <div class="comments">
+                    <h3>RECENT COMMENTS</h3>
+                    <ul>
+                        <li><a href="#">Amada Doe </a> on <a href="#">Hello World!</a></li>
+                        <li><a href="#">Peter Doe </a> on <a href="#"> Photography</a></li>
+                        <li><a href="#">Steve Roberts  </a> on <a href="#">HTML5/CSS3</a></li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+                <div class="categories">
+                    <h3>CATEGORIES</h3>
+                    <ul>
+                        @foreach (var item in Model.Categories)
+                        {
+
+                            <li><a href="/Home/CategoryFilm/@item.ID">@item.CategoryName (@Model.FilmCount)</a></li>
+
+
+                        }
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+

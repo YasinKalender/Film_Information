@@ -1,0 +1,8 @@
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Entities\bin\Debug\netcoreapp3.1\Film_Information.Entities.deps.json
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Entities\bin\Debug\netcoreapp3.1\Film_Information.Entities.dll
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Entities\bin\Debug\netcoreapp3.1\Film_Information.Entities.pdb
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Entities\obj\Debug\netcoreapp3.1\Film_Information.Entities.AssemblyInfoInputs.cache
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Entities\obj\Debug\netcoreapp3.1\Film_Information.Entities.AssemblyInfo.cs
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Entities\obj\Debug\netcoreapp3.1\Film_Information.Entities.csproj.CoreCompileInputs.cache
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Entities\obj\Debug\netcoreapp3.1\Film_Information.Entities.dll
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Entities\obj\Debug\netcoreapp3.1\Film_Information.Entities.pdb

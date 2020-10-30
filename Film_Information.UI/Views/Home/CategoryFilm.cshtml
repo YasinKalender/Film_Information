@@ -1,0 +1,34 @@
+﻿@model List<FilmListAddUpdateDto>
+@{
+    ViewData["Title"] = "CategoryFilm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@foreach (var item in Model)
+{
+    <div class="content-grid-info">
+
+        <img src="/image/@item.Image" class="h-100" />
+        <div class="post-info">
+            <h4><a href="single.html">@item.FilmName</a>  July 30, 2014 / 27 Comments</h4>
+
+            @if (item.FilmDescription.Length > 100)
+            {
+                <p>
+                    @(item.FilmDescription.Substring(0,100)+"...")
+                </p>
+            }
+
+            else
+            {
+                <p>@item.FilmDescription</p>
+            }
+            @Html.ActionLink("Film Detayları", "FilmDetails", "Home", new { id = item.ID }, new { @class = "btn btn-primary" })
+            @Html.ActionLink("Filme Yorum Yap", "CommentsAdd", "Comments", null, new { @class = "btn btn-primary" })
+
+        </div>
+    </div>
+}
+
+
+

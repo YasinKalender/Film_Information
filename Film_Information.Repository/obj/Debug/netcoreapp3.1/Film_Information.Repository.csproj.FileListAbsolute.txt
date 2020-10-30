@@ -1,0 +1,16 @@
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Repository\bin\Debug\netcoreapp3.1\Film_Information.Repository.deps.json
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Repository\bin\Debug\netcoreapp3.1\Film_Information.Repository.dll
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Repository\bin\Debug\netcoreapp3.1\Film_Information.Repository.pdb
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Repository\bin\Debug\netcoreapp3.1\Film_Information.DAL.dll
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Repository\bin\Debug\netcoreapp3.1\Film_Information.Entities.dll
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Repository\bin\Debug\netcoreapp3.1\Film_Information.Map.dll
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Repository\bin\Debug\netcoreapp3.1\Film_Information.DAL.pdb
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Repository\bin\Debug\netcoreapp3.1\Film_Information.Entities.pdb
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Repository\bin\Debug\netcoreapp3.1\Film_Information.Map.pdb
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Repository\obj\Debug\netcoreapp3.1\Film_Information.Repository.csprojAssemblyReference.cache
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Repository\obj\Debug\netcoreapp3.1\Film_Information.Repository.AssemblyInfoInputs.cache
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Repository\obj\Debug\netcoreapp3.1\Film_Information.Repository.AssemblyInfo.cs
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Repository\obj\Debug\netcoreapp3.1\Film_Information.Repository.csproj.CoreCompileInputs.cache
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Repository\obj\Debug\netcoreapp3.1\Film_Information.Repository.csproj.CopyComplete
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Repository\obj\Debug\netcoreapp3.1\Film_Information.Repository.dll
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.Repository\obj\Debug\netcoreapp3.1\Film_Information.Repository.pdb

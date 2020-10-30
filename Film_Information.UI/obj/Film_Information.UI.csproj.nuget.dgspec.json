@@ -1,0 +1,461 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.UI\\Film_Information.UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Business\\Film_Information.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Business\\Film_Information.Business.csproj",
+        "projectName": "Film_Information.Business",
+        "projectPath": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Business\\Film_Information.Business.csproj",
+        "packagesPath": "C:\\Users\\ysnbj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ysnbj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Dto\\Film_Information.Dto.csproj": {
+                "projectPath": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Dto\\Film_Information.Dto.csproj"
+              },
+              "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Repository\\Film_Information.Repository.csproj": {
+                "projectPath": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Repository\\Film_Information.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[9.2.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.5, )"
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.7.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.DAL\\Film_Information.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.DAL\\Film_Information.DAL.csproj",
+        "projectName": "Film_Information.DAL",
+        "projectPath": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.DAL\\Film_Information.DAL.csproj",
+        "packagesPath": "C:\\Users\\ysnbj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ysnbj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Map\\Film_Information.Map.csproj": {
+                "projectPath": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Map\\Film_Information.Map.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Dto\\Film_Information.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Dto\\Film_Information.Dto.csproj",
+        "projectName": "Film_Information.Dto",
+        "projectPath": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Dto\\Film_Information.Dto.csproj",
+        "packagesPath": "C:\\Users\\ysnbj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ysnbj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Entities\\Film_Information.Entities.csproj": {
+                "projectPath": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Entities\\Film_Information.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Entities\\Film_Information.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Entities\\Film_Information.Entities.csproj",
+        "projectName": "Film_Information.Entities",
+        "projectPath": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Entities\\Film_Information.Entities.csproj",
+        "packagesPath": "C:\\Users\\ysnbj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ysnbj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Map\\Film_Information.Map.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Map\\Film_Information.Map.csproj",
+        "projectName": "Film_Information.Map",
+        "projectPath": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Map\\Film_Information.Map.csproj",
+        "packagesPath": "C:\\Users\\ysnbj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Map\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ysnbj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Entities\\Film_Information.Entities.csproj": {
+                "projectPath": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Entities\\Film_Information.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Repository\\Film_Information.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Repository\\Film_Information.Repository.csproj",
+        "projectName": "Film_Information.Repository",
+        "projectPath": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Repository\\Film_Information.Repository.csproj",
+        "packagesPath": "C:\\Users\\ysnbj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ysnbj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.DAL\\Film_Information.DAL.csproj": {
+                "projectPath": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.DAL\\Film_Information.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.UI\\Film_Information.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.UI\\Film_Information.UI.csproj",
+        "projectName": "Film_Information.UI",
+        "projectPath": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.UI\\Film_Information.UI.csproj",
+        "packagesPath": "C:\\Users\\ysnbj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ysnbj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Business\\Film_Information.Business.csproj": {
+                "projectPath": "C:\\Users\\ysnbj\\Desktop\\Film_Information\\Film_Information.Business\\Film_Information.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

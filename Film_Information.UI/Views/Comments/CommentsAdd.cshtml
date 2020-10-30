@@ -1,0 +1,73 @@
+﻿@model FilmCommentDto
+@{
+    ViewData["Title"] = "CommentsAdd";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@await Component.InvokeAsync("FilmD", new { id = Model.ID })
+
+@if (Model.Comments.Count > 0)
+{
+    @foreach (var item in Model.Comments)
+    {
+        <div class="media">
+            <img src="~/image/@item.AppUser.Image" class="mr-3" alt="...">
+            <div class="media-body">
+                <h5 class="mt-0">@item.AppUser.FirstName</h5>
+                @item.Comment
+            </div>
+        </div>
+    }
+}
+
+else
+{
+    <p class="text-center lead">Henüz yorum yapılmamış</p>
+}
+
+@*@if (User.Identity.IsAuthenticated)
+{*@
+    @using (Html.BeginForm())
+    {
+
+        <input type="hidden" asp-for="@Model.FilmID" />
+        <input type="hidden" asp-for="@Model.ID" />
+        <input type="hidden" name="@ViewBag.user" />
+        <input type="hidden" name="@ViewBag.Luser" />
+
+
+        <div class="form-group">
+
+            <label for="">Mail adresiniz</label>
+            <input type="text" asp-for="Email" class="form-control" />
+
+
+        </div>
+
+        <div class="form-group">
+
+            <label for="">Yorumunuz</label>
+            <textarea class="form-control" asp-for="Comment"></textarea>
+
+
+        </div>
+
+        <button type="submit" class="btn btn-primary">Yorum Ekle</button>
+
+
+
+
+
+
+    }
+@*}*@
+
+@*else
+{
+    <p>Yorum Yapabilmek için giriş yapınız</p>
+}*@
+
+
+
+
+

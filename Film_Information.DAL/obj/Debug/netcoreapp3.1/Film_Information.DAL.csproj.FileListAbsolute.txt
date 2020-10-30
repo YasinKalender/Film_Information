@@ -1,0 +1,17 @@
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.DAL\bin\Debug\netcoreapp3.1\Film_Information.DAL.deps.json
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.DAL\bin\Debug\netcoreapp3.1\Film_Information.DAL.runtimeconfig.json
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.DAL\bin\Debug\netcoreapp3.1\Film_Information.DAL.runtimeconfig.dev.json
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.DAL\bin\Debug\netcoreapp3.1\Film_Information.DAL.dll
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.DAL\bin\Debug\netcoreapp3.1\Film_Information.DAL.pdb
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.DAL\bin\Debug\netcoreapp3.1\Film_Information.Entities.dll
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.DAL\bin\Debug\netcoreapp3.1\Film_Information.Map.dll
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.DAL\bin\Debug\netcoreapp3.1\Film_Information.Map.pdb
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.DAL\bin\Debug\netcoreapp3.1\Film_Information.Entities.pdb
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.DAL\obj\Debug\netcoreapp3.1\Film_Information.DAL.csprojAssemblyReference.cache
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.DAL\obj\Debug\netcoreapp3.1\Film_Information.DAL.AssemblyInfoInputs.cache
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.DAL\obj\Debug\netcoreapp3.1\Film_Information.DAL.AssemblyInfo.cs
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.DAL\obj\Debug\netcoreapp3.1\Film_Information.DAL.csproj.CoreCompileInputs.cache
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.DAL\obj\Debug\netcoreapp3.1\Film_Information.DAL.csproj.CopyComplete
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.DAL\obj\Debug\netcoreapp3.1\Film_Information.DAL.dll
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.DAL\obj\Debug\netcoreapp3.1\Film_Information.DAL.pdb
+C:\Users\ysnbj\Desktop\Film_Information\Film_Information.DAL\obj\Debug\netcoreapp3.1\Film_Information.DAL.genruntimeconfig.cache

@@ -1,0 +1,29 @@
+﻿@model Film_Information.Entities.ORM.Entities.Concrete.AppUser
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+
+
+<ul>
+    <li class="active"><a href="index.html">HOME</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+    <li><span class="badge badge-success"></span></li>
+
+
+
+</ul>
+<div class="dropdown">
+
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">@Model.FirstName<span class="caret"></span></button>
+
+    <ul class="dropdown-menu">
+
+        <li><a href="/Home/UpdateUser/@Model.Id">Bilgilerini Güncelle</a></li>
+        <li><a href="/Home/SignOut">Çıkış Yap</a></li>
+
+
+    </ul>
+
+</div>
